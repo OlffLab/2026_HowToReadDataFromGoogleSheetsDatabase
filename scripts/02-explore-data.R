@@ -1,8 +1,10 @@
 ################################################
 # How to read from a Google Sheets database in R
-# where the whole database is read as a list object, with each sheet as a separate data frame in the list
+# where the whole database is read as a list object, 
+# with each sheet as a separate data frame in the list
 # More info: f.o.ledidi@rug.nl
-# Example data: wildlife census data for 14 transects of 4 km long each, 200 m wide,2023-2024
+# Example data: wildlife census data for 14 transects 
+# of 4 km long each, 200 m wide,2023-2024
 #################################################
 
 #--------------------------01 Set up the environment ----
