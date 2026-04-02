@@ -20,6 +20,8 @@ gsheets_auth() # authenticate google sheets access, this will open a browser win
 # database link is the url to the google sheets database (not a published csv file anymore)
 # reading requires google sheets authentication (see above)
 database_link <- "https://docs.google.com/spreadsheets/d/1m-liu8omZMewqz_YP9j_YUmQ0zwATl3z4aRLnZFnfWc"
+# to view the database in the browser: 
+# browseURL(database_link)
 # read the data from the database, useing the function read_gsdb() that is defined in the script 01-setup.r
 data <- read_gsdb(database_link, sheets=c("DimTransect", "DimSection", "FactSectionAnimals", "DimSpecies")) 
 # combine the tables through a relational database join
