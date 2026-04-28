@@ -5,7 +5,7 @@
 # More info: f.o.ledidi@rug.nl
 # Example data: wildlife census data for 14 transects 
 # of 4 km long each, 200 m wide,2023-2024
-##################################################
+##################################################-
 
 #--------------------------01 Set up the environment ----
 # !!!Remember to first pull the latest changes from the Github repository in the Git tab topright
